@@ -2,9 +2,9 @@
   "name": "evaluacion",
   "version": "1.0.0",
   "description": "Evaluacion con sass php",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "sass": "sass src/scss:dist/css"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,16 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.86.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.6",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-uglify": "^3.0.2"
   }
 }
