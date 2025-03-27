@@ -16,6 +16,7 @@
     "sass": "^1.86.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.6",
     "gulp": "^5.0.0",
@@ -25,5 +26,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser-js": "^5.2.2",
     "gulp-uglify": "^3.0.2"
+=======
+    "gulp": "^5.0.0"
+>>>>>>> a6c769415c836fff62787b374763c4e08e13dbdd
   }
 }
